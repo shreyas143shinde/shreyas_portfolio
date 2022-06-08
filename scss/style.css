@@ -342,6 +342,10 @@ body {
           transform: scale(1.1);
 }
 
+.media-nav {
+  display: none;
+}
+
 @media (max-width: 991px) {
   .nav-holder {
     position: -webkit-sticky;
@@ -374,7 +378,6 @@ body {
     margin-top: 40px;
   }
   .content-info {
-    margin-top: 20px;
     margin-left: 0px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -432,6 +435,7 @@ body {
 .card-holder p {
   font-size: 18px;
   line-height: 28px;
+  color: #878e99;
 }
 
 .hold {

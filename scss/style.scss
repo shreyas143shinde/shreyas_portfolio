@@ -184,6 +184,7 @@
  
 }
 
+
 .content-holder{
   background-color: #212428;
   border-radius: 15px;
@@ -262,6 +263,9 @@
     transform: scale(1.1);
 } 
 
+.media-nav{
+  display: none;
+}
 
 @media(max-width:991px){
   .nav-holder{
@@ -271,6 +275,7 @@
     justify-content: space-around;
     flex-direction: row;
     height: 70px;
+   
    
   }
   .img-holder2{ 
@@ -283,7 +288,7 @@
     margin-top: 40px;
   }
   .content-info{
-    margin-top: 20px;
+    // margin-top: 20px;
     margin-left: 0px;
     display: flex;
     flex-direction: column;
@@ -333,7 +338,8 @@
     p{
       font-size: 18px;
       line-height: 28px;
-    }
+      color: #878e99;
+    } 
 }
 
 .hold{
@@ -379,5 +385,11 @@
 .client-holder:hover{
   background:linear-gradient(145deg, #23272b , #1e2024 );
 }
+
+
+
+// resume page  css start here
+
+
 
 
