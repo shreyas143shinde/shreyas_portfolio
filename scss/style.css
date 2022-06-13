@@ -487,4 +487,172 @@ body {
 .client-holder:hover {
   background: linear-gradient(145deg, #23272b, #1e2024);
 }
+
+.ppink {
+  color: #f9004d;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.title18 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 62px;
+  color: #c4cfde;
+}
+
+.card-content-holder {
+  width: 100%;
+  padding: 50px 0px;
+  border-radius: 6px;
+  background: -webkit-gradient(linear, left top, right bottom, from(#212428), to(#16181c));
+  background: linear-gradient(to right bottom, #212428, #16181c);
+  -webkit-box-shadow: 0px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+          box-shadow: 0px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+}
+
+.card-content-holder .para123 {
+  color: #c4cfde;
+  font-size: 24px;
+  line-height: 39px;
+  margin-bottom: 7px;
+  font-weight: 500;
+  width: 230px;
+}
+
+.card-content-holder .para125 {
+  color: #7c838e;
+  display: block;
+  font-size: 14px;
+}
+
+.card-content-holder span {
+  color: #f9004d;
+  display: block;
+  font-size: 14px;
+  padding: 0 15px;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 6px;
+  background: linear-gradient(145deg, #1e2024, #23272b);
+  -webkit-box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+          box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  font-weight: 500;
+}
+
+.card-content-holder .description {
+  font-size: 18px;
+  line-height: 28px;
+  color: #7c838e;
+  padding: 10px 35px;
+}
+
+.holder-scam :hover {
+  background: -webkit-gradient(linear, left top, right bottom, from(#16181c), to(#212428));
+  background: linear-gradient(to right bottom, #16181c, #212428);
+  color: #c4cfde;
+}
+
+@media (max-width: 766px) {
+  .medium {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .medium .para123 {
+    margin-top: 20px;
+    width: 100%;
+  }
+}
+
+.para1234 {
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+}
+
+.spany {
+  font-size: 17px;
+  color: #7c838e;
+}
+
+.skills {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  color: #c3cedd;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  opacity: 0.9;
+  font-weight: 400;
+}
+
+.progress {
+  height: 7px;
+  border-radius: 14px;
+}
+
+.bar123 {
+  background: linear-gradient(145deg, #f02981 0%, #c81901 100%);
+}
+
+.card-project {
+  text-align: left;
+  padding: 30px;
+  position: relative;
+  border-radius: 20px;
+  background: linear-gradient(145deg, #1e2024, #23272b);
+  -webkit-box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+          box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  -webkit-transition: 0.5s all ease-in-out;
+  transition: 0.5s all ease-in-out;
+  display: inline-block;
+}
+
+.card-project:hover {
+  background: linear-gradient(145deg, #23272b, #1e2024);
+}
+
+.develop {
+  color: #f9004d;
+  font-weight: 500;
+  font-family: 14px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: block;
+  text-decoration: none;
+}
+
+.develop:hover {
+  color: #f9004d;
+}
+
+.para98 {
+  color: #c4cfde;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 34px;
+  display: inline-block;
+}
+
+.para981 {
+  color: #878e99;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 34px;
+  display: inline-block;
+}
+
+.para981:hover {
+  color: #f9004d;
+}
 /*# sourceMappingURL=style.css.map */
